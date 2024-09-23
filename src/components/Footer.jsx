@@ -67,14 +67,15 @@ function Footer() {
                   </p>
                 </li>
                 <li>
+                  
                   <p className="">
                     E-mail:
                     <a
-                      href="mailto:paishaiming995@gmail.com"
+                      href="mailto:wmcg.three.3@gmail.com"
                       className=" transition-colors duration-300 hover:text-deep-purple-accent-200"
                     >
                       {" "}
-                      paishaiming995@gmail.com
+                      wmcg.three.3@gmail.com
                     </a>
                   </p>
                 </li>
@@ -163,7 +164,7 @@ function Footer() {
               className="block mt-4 "
               onSubmit={handleSubmit}
               // method="post"
-              // action={`mailto:https://paishaiming995@gmail.com?subject=Message from ${name}&body=${message}`}
+              // action={`mailto:https://wmch.three.3@gmail.com?subject=Message from ${name}&body=${message}`}
               // encType="multipart/form-data"
             >
            

@@ -50,7 +50,7 @@ const AboutSection = (props) => {
   const { setSection } = props;
   const handleViewCV = () => {
     // Replace 'CV_URL' with the direct URL to your CV file
-    const cvUrl = "/Shaiming_Pai_Resume.pdf";
+    const cvUrl = "/Koryun Azoyan.pdf";
     window.open(cvUrl, "_blank");
   };
   return (
@@ -63,7 +63,7 @@ const AboutSection = (props) => {
           </span>
 
           <span className="bg-white text-purple-500 px-2 text-3xl md:text-4xl  rounded-lg rounded-tl-none rounded-bl-none font-[700]  uppercase">
-            Shaiming Pai
+            Koryun Azoyan
           </span>
         </p>
       </h4>
@@ -82,15 +82,15 @@ const AboutSection = (props) => {
           delay: 1.5,
         }}
       >
-        I'm a Passionate Full Stack Developer proficient in React, Next, and Vue for frontend,
-        & PHP, Laravel, WordPress, CI, NodeJS, Express, NestJS, Django, .Net, Go for backend.
-        With expertise in JavaScript, PHP and Python etc, I craft seamless web developments
-        and responsive & modernize designs.  
-        In the past 5 years, I dived into the BlockChain technology and have experience in Web3 & DeFi.
-        Skilled in Git, Jira and Docker, I prioritize software quality and efficient CI/CD workflows. 
-        Passionate about bug tracking and resolution, I'm committed to excellence in software development.
-        Currently, I'm dedicated to learn new technologies like Rust & other technical stacks.
-      </motion.p> 
+        Senior React / Next Front-end Engineer Koryun Azoyan is a passionate
+        software engineer with 10 years of experience. What sets him apart is
+        his ability to ramp up new technologies and his problem-solving skills
+        quickly. He thrives on new challenges and enjoys pushing himself to
+        learn and grow. He is passionate about mentoring junior developers and
+        helping them unlock their full potential. He loves proposing new ideas,
+        wearing many hats, and collaborating closely with different areas to
+        achieve success
+      </motion.p>
       <section className="flex gap-8">
         <motion.button
           onClick={() => setSection(3)}
@@ -171,7 +171,7 @@ const skills = [
   },
   {
     title: ".Net",
-    level: 75
+    level: 75,
   },
   {
     title: "Blockchain / Web3",
@@ -281,15 +281,15 @@ const ContactSection = () => {
     const notify = () => toast.loading("sending email...");
     emailjs
       .send(
-        "service_ctak358",
-        "template_ewckhqo",
+        "service_eve9c71",
+        "template_2w9saze",
         {
           from_name: name,
           from_email: email,
-          to_name: "Shaiming Pai",
+          to_name: "Koryun Azoyan",
           message: message,
         },
-        "2wfDCMzB5LS4lK1qY"
+        "1Hesq2iCJUVuGTjVO"
       )
       .then((response) => {
         toast.success("Email sent successfully:", { id: notify() });
@@ -301,7 +301,6 @@ const ContactSection = () => {
       .finally(() => {
         setName("");
         setMessage("");
-  
       });
   };
   return (
@@ -309,8 +308,7 @@ const ContactSection = () => {
       <Toaster />
       <h2 className="text-3xl font-bold uppercase">Contact me</h2>
       <div className="mt-8 p-8 rounded-md bg-white bg-opacity-40 w-96 max-w-full">
-        <form
-        >
+        <form>
           <label
             htmlFor="name"
             className="font-medium text-gray-900 block mb-1"

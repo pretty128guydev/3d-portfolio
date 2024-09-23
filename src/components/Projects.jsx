@@ -27,12 +27,6 @@ export const projects = [
     description: "Betting Game Platform",
   },
   {
-    title: "MY Portfolio",
-    url: "https://shaiming-pai.vercel.app/",
-    image: "projects/portfolio.png",
-    description: "Portfolio",
-  },
-  {
     title: "Total Booking",
     url: "https://www.totalbookings.com ",
     image: "projects/totalBooking.png",

@@ -1,6 +1,6 @@
 ## 👋Hello wrld
 
-## WELCOME TO SHAIMING PAI PORTFOLIO🚀
+## WELCOME TO Koryun Azoyan PORTFOLIO🚀
 
 ![Alt text](public/projects/portfolio.png)
 
@@ -24,7 +24,6 @@ Vite + React as main JS framework, React three && React three fiber for 3D rende
 
 ## Live site
 
-🏹 https://shaiming-pai.vercel.app/
 
 ## Github
 
