@@ -50,7 +50,7 @@ const AboutSection = (props) => {
   const { setSection } = props;
   const handleViewCV = () => {
     // Replace 'CV_URL' with the direct URL to your CV file
-    const cvUrl = "/Koryun Azoyan.pdf";
+    const cvUrl = "/resume.pdf";
     window.open(cvUrl, "_blank");
   };
   return (
@@ -63,7 +63,7 @@ const AboutSection = (props) => {
           </span>
 
           <span className="bg-white text-purple-500 px-2 text-3xl md:text-4xl  rounded-lg rounded-tl-none rounded-bl-none font-[700]  uppercase">
-            Koryun Azoyan
+            Tkalich Denys maksimovich
           </span>
         </p>
       </h4>
@@ -82,14 +82,14 @@ const AboutSection = (props) => {
           delay: 1.5,
         }}
       >
-        Senior React / Next Front-end Engineer Koryun Azoyan is a passionate
-        software engineer with 10 years of experience. What sets him apart is
-        his ability to ramp up new technologies and his problem-solving skills
-        quickly. He thrives on new challenges and enjoys pushing himself to
-        learn and grow. He is passionate about mentoring junior developers and
-        helping them unlock their full potential. He loves proposing new ideas,
-        wearing many hats, and collaborating closely with different areas to
-        achieve success
+        Senior React / Next Front-end Engineer Tkalich Denys maksimovich is a
+        passionate software engineer with 10 years of experience. What sets him
+        apart is his ability to ramp up new technologies and his problem-solving
+        skills quickly. He thrives on new challenges and enjoys pushing himself
+        to learn and grow. He is passionate about mentoring junior developers
+        and helping them unlock their full potential. He loves proposing new
+        ideas, wearing many hats, and collaborating closely with different areas
+        to achieve success
       </motion.p>
       <section className="flex gap-8">
         <motion.button
@@ -286,7 +286,7 @@ const ContactSection = () => {
         {
           from_name: name,
           from_email: email,
-          to_name: "Koryun Azoyan",
+          to_name: "Tkalich Denys maksimovich",
           message: message,
         },
         "1Hesq2iCJUVuGTjVO"

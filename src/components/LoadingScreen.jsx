@@ -24,9 +24,9 @@ function LoadingScreen(props) {
                   style={{
                   width:`${progress}%`,
               }}>
-                  Koryun Azoyan
+                  Tkalich Denys maksimovich
               </div>
-              <div className='opacity-40 '>Koryun Azoyan</div>
+              <div className='opacity-40 '>Tkalich Denys maksimovich</div>
                 </div>
                 
                 <div className='mt-5 mb-5'>

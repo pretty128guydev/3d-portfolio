@@ -1,6 +1,6 @@
 ## 👋Hello wrld
 
-## WELCOME TO Koryun Azoyan PORTFOLIO🚀
+## WELCOME TO Tkalich Denys maksimovich PORTFOLIO🚀
 
 ![Alt text](public/projects/portfolio.png)
 
