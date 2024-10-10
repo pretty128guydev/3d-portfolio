@@ -82,14 +82,14 @@ const AboutSection = (props) => {
           delay: 1.5,
         }}
       >
-        Senior React / Next Front-end Engineer Tkalich Denys maksimovich is a
-        passionate software engineer with 10 years of experience. What sets him
-        apart is his ability to ramp up new technologies and his problem-solving
-        skills quickly. He thrives on new challenges and enjoys pushing himself
-        to learn and grow. He is passionate about mentoring junior developers
-        and helping them unlock their full potential. He loves proposing new
+        I specialize in creating dynamic and responsive web applications using
+        React framework. With a strong foundation in HTML, CSS, and JavaScript,
+        I am adept at translating design mockups into high-quality, efficient,
+        and scalable code. I am well-equipped to begin tackling the complexities
+        of web development. What sets me apart is my ability to ramp up new
+        technologies and my problem-solving skills quickly. I love proposing new
         ideas, wearing many hats, and collaborating closely with different areas
-        to achieve success
+        to achieve success.
       </motion.p>
       <section className="flex gap-8">
         <motion.button
